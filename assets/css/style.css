@@ -7,46 +7,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
 body {   
-        min-height: 100vh;
-        background-color: aqua;
-        font-family: 'Lora', sans-serif;
-        text-transform: uppercase;
+        
+    background-color: aqua;
+    font-family: 'Lora', sans-serif;
+    text-transform: uppercase;
 }
+
 /*Main content*/
- .game-area { 
+.game-area { 
     position: relative;
     background-color: rgb(0, 255, 162);
     padding-top: 2rem;
-    margin: 0 auto;;
-    max-width: 700px;
+    margin: 2px;
     box-sizing: border-box;
+    
 }
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 150px;
     border: 3px solid;
     border-radius: 20px;
-    padding: 1rem 1.5rem 1rem 2rem;
+    padding: 2px;
+    font-size: 20px;
+}
+.score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 70px;
 }
 
-.score {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     justify-content: center;
-     background-color: white;
-     border-radius: 10px;
-     width: 150px;
-     height: 100%;
-}
 .score-title {
-    font-size: 1rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1rem;
 }
 
 .score-number {
-    font-size: 4rem;
+    padding-top: 5px;
+    font-size: 2rem;
+}
+
+/* Game */
+.choice-btn {
+    padding-top: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 10px solid;
+    width: 100px;
+    height: 100px;
+    font-size: 3.2rem;
+    margin: 0 30px;
+    transition: all 0.5s;
+}
+.btn-red {
+    
+}
+/*Media queries of screen sizes bigger than 768px and up*/
+/*Media queries*/
+@media screen and (min-width :768px) {
+    .game-area {max-width: 700px;
+        margin: 0 auto;
+        padding-top: 2rem;
+
+    }
+    .header {
+        height: 150px;
+        padding: 1rem, 1.5rem, 1rem, 2rem;
+        font-size: 30px;
+    }
+    .score{
+        width: 150px;
+        height: 100%;
+    }
+    .score-title {
+        font-size: 1rem;
+    }
+    .score-number {
+        padding-top: 0%;
+        font-size: 4rem;
+    }
+
 }

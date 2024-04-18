@@ -8,50 +8,29 @@
 
 body {   
         
-    background-color: aqua;
+    background-color: white;
     font-family: 'Lora', sans-serif;
-    text-transform: uppercase;
 }
 
 /*Main content*/
 .game-area { 
     position: relative;
-    background-color: rgba(0, 255, 162, 0.5);
+    background-color: rgb(242, 174, 185);
     padding-top: 2rem;
     margin-top: 2rem;
     margin-left: 5px;
     margin-right: 5px;
     box-sizing: border-box;
+    border: 3px solid;
+    border-radius: 20px;
     
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 3px solid;
-    border-radius: 20px;
     padding: 2px;
-    font-size: 20px;
-}
-.score {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    border-radius: 10px;
-    width: 100px;
-    height: 70px;
-}
-
-.score-title {
-    font-size: 0.6rem;
-    letter-spacing: 0.1rem;
-}
-
-.score-number {
-    padding-top: 5px;
-    font-size: 2rem;
+    font-size: 18px;
 }
 
 /* Game */
@@ -76,22 +55,68 @@ body {
     border-color: red;
     color: red;
 }
+.btn-red:active,
+.btn-red:hover {
+    background-color: darkred;
+    color: white;
+}
+
 .btn-green {
     border-color: green;
     color: green;
 }
+.btn-green:active,
+.btn-green:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
 .btn-blue {
     border-color: blue;
     color: blue;
 }
+.btn-blue:active,
+.btn-blue:hover {
+    background-color: darkblue;
+    color: white;
+}
+
 .btn-maroon {
     border-color: maroon;
     color: maroon;
 }
+.btn-maroon:active,
+.btn-maroon:hover {
+    background-color: #5C4033;
+    color: white;
+}
+
 .btn-purple {
     border-color: purple;
     color: purple;
     
+}
+.btn-purple:active,
+.btn-purple:hover {
+    background-color: #301934;
+    color: white;
+}
+
+/*Rules button*/
+.rules-btn {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    background: none;
+    outline: none;
+    border: 2px solid;
+    border-radius: 0.6rem;
+    padding: 0.6rem, 2.5rem;
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 1.3rem;
+    letter-spacing: 0.1em;
+
 }
 
 /*Media queries of screen sizes bigger than 768px and up*/

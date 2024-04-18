@@ -4,12 +4,12 @@
     margin: 0;
 }
 /*Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
 body {   
         
     background-color: white;
-    font-family: 'Lora', sans-serif;
+    font-family: 'zeyada', sans-serif;
 }
 
 /*Main content*/
@@ -51,56 +51,16 @@ body {
     margin: 2px;
 }
 
-.btn-red {
-    border-color: red;
-    color: red;
+.btn-black {
+    border-color: black;
+    color: black;
 }
-.btn-red:active,
-.btn-red:hover {
-    background-color: darkred;
+.btn-black:active,
+.btn-black:hover {
+    background-color: black;
     color: white;
 }
 
-.btn-green {
-    border-color: green;
-    color: green;
-}
-.btn-green:active,
-.btn-green:hover {
-    background-color: darkgreen;
-    color: white;
-}
-
-.btn-blue {
-    border-color: blue;
-    color: blue;
-}
-.btn-blue:active,
-.btn-blue:hover {
-    background-color: darkblue;
-    color: white;
-}
-
-.btn-maroon {
-    border-color: maroon;
-    color: maroon;
-}
-.btn-maroon:active,
-.btn-maroon:hover {
-    background-color: #5C4033;
-    color: white;
-}
-
-.btn-purple {
-    border-color: purple;
-    color: purple;
-    
-}
-.btn-purple:active,
-.btn-purple:hover {
-    background-color: #301934;
-    color: white;
-}
 
 /*Rules button*/
 .rules-btn {

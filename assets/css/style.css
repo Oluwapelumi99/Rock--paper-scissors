@@ -109,10 +109,11 @@ body {
     border: 2px solid;
     border-radius: 0.6rem;
     color: var(--black-text);
-    padding: 0.6rem, 2.5rem;
+    margin-top: 20px;
+    padding: 10px 25px;
     font-family: inherit;
     font-size: 1.3rem;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.1em;
 
 }
 .rules-btn:hover {

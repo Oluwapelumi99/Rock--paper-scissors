@@ -60,31 +60,51 @@ body {
     background-color: black;
     color: white;
 }
-
+/*Results*/
+.results {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    grid-template-areas: 
+    "you-title computer-title"
+    "you-picked computer-picked";
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.results-heading1 {
+    grid-area: "you-title";
+}
+.results-heading2 {
+    grid-area: "computer-title";
+}
 
 /*Rules button*/
 .rules-btn {
     position: absolute;
-    bottom: 2rem;
+    bottom: 7.5rem;
     right: 2rem;
     background: none;
-    outline: none;
     border: 2px solid;
     border-radius: 0.6rem;
+    color: var(--black-text);
     padding: 0.6rem, 2.5rem;
     font-family: inherit;
-    text-transform: inherit;
     font-size: 1.3rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.3em;
 
 }
-
+.rules-btn:hover {
+    background: black;
+    border: 2px solid pink;
+    color: white
+}
 /*Media queries of screen sizes bigger than 768px and up*/
 /*Media queries*/
 @media screen and (min-width :768px) {
     .game-area {max-width: 700px;
-        margin: 0 auto;
+        margin: 10px auto;
         padding-top: 2rem;
+
 
     }
     .header {
@@ -117,4 +137,15 @@ body {
         width: 100%;
         padding-top: 300px;
     }
+    .rules-btn {
+        bottom: 20rem;
+        right: 10rem;
+    }
+    /*Media queries of screen sizes bigger than 992px and up*/
+@media screen and (min-width: 992px){
+    .rules-btn {
+        bottom: 20rem;
+        right: 15rem;
+    }  
+}
 }

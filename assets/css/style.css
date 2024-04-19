@@ -27,10 +27,10 @@ body {
 }
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 2px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 /* Game */
@@ -38,10 +38,10 @@ body {
     display: flex;
     flex-direction: row;
   justify-content: space-evenly;
-   padding-top: 300px;
+
  }
 .choice-btn {
-    padding-top: 20px;
+    padding-top: 15px;
     border-radius: 50%;
     background-color: white;
     border: 5px solid;
@@ -69,19 +69,41 @@ body {
     "you-title computer-title"
     "you-picked computer-picked";
     max-width: 1000px;
+    max-height: 1000px;
     margin: 0 auto;
+   
+
+}
+.results-heading1, .results-heading2 {
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 0 2rem;
+}
+.result1, .result2 {
+    min-width: 5rem;
+    min-height: 5rem;
+    border-radius: 50%;
+    background: rgb(242, 174, 185);
+    margin-bottom: 40px;
+       
 }
 .results-heading1 {
-    grid-area: "you-title";
+    grid-area: you-title;
 }
 .results-heading2 {
-    grid-area: "computer-title";
+    grid-area: computer-title;
 }
+.result1 {
+   grid-area: you-picked;
+}
+.result2 {
+    grid-area: computer-picked;
+ }
 
 /*Rules button*/
 .rules-btn {
     position: absolute;
-    bottom: 7.5rem;
+    bottom: 6.0rem;
     right: 2rem;
     background: none;
     border: 2px solid;
@@ -135,8 +157,14 @@ body {
     }
     .game {
         width: 100%;
-        padding-top: 300px;
     }
+    .results-heading1, .results-heading2 {
+        padding: 10px; 
+    }
+    .result1, .result2 {
+        min-width:10rem;
+        min-height: 10rem;
+    }  
     .rules-btn {
         bottom: 20rem;
         right: 10rem;

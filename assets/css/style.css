@@ -96,7 +96,7 @@ body {
 }
 
 /*Reload button*/
-.reload-btn {
+#reload-btn {
     position: absolute;
     bottom: 2.0rem;
     right: 1.0rem;
@@ -111,7 +111,7 @@ body {
     letter-spacing: 0.1em;
 
 }
-.reload-btn:hover {
+#reload-btn:hover {
     background: black;
     border: 2px solid pink;
     color: white

@@ -49,3 +49,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>Media</li> 
   <li>Fonts</li>
   <li>Icons</li>
+
+  ## Color Scheme
+  <li>The colors used for this page -rgb(242, 174, 185); : Used for the game area.</li>
+  <li> Black color has been used for the text color and colors of the icons, the black color has also been used for the border around that encloses the game area.</li>
+  <li>The background color for the page is white.</li>
+  <li>On the reload button </li>

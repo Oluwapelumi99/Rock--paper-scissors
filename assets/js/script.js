@@ -4,7 +4,6 @@
         button.addEventListener("click", function() {
         if (this.getAttribute("data-type") === "rock", "paper","scissors", "lizard", "spock" ){
           console.log("You clicked " + this.getAttribute("data-type"));
-     
         }
         let playerChoice = this.getAttribute("data-type");
       runGame(playerChoice);
@@ -134,5 +133,3 @@
    let computerChoice = getComputerChoice();
    decideWinner(playerChoice, computerChoice);
   };
-
-  

@@ -18,13 +18,18 @@ body {
     background-color: rgb(242, 174, 185);
     padding-top: 2rem;
     margin-top: 2rem;
-    margin-left: 5px;
-    margin-right: 5px;
     box-sizing: border-box;
     border: 3px solid;
     border-radius: 20px;
-    
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+        
 }
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -32,24 +37,38 @@ body {
     padding: 2px;
     font-size: 15px;
 }
-
-/* Game */
- .game {
+.score{
     display: flex;
     flex-direction: row;
   justify-content: space-evenly;
-
+ }
+#y-score, #c-score {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+/* Game */
+ .game{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+ }
+ .choice{
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.5rem;
  }
 .choice-btn {
-    padding-top: 15px;
     border-radius: 50%;
     background-color: white;
-    border: 5px solid;
-    width: 60px;
-    height: 60px;
-    font-size: 2rem;
-    margin: 2px;
+    border: 2px solid;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    transition: all 0.5s;
 }
+
 
 .btn-black {
     border-color: black;
@@ -74,49 +93,24 @@ body {
    
 
 }
-.results-heading1, .results-heading2 {
-    font-size: 1.5em;
-    letter-spacing: 0.1em;
-    padding: 0.5rem 0 2rem;
-}
-.result1, .result2 {
-    min-width: 5rem;
-    min-height: 5rem;
-    border-radius: 50%;
-    background: rgb(242, 174, 185);
-    margin-bottom: 40px;
-       
-}
-.results-heading1 {
-    grid-area: you-title;
-}
-.results-heading2 {
-    grid-area: computer-title;
-}
-.result1 {
-   grid-area: you-picked;
-}
-.result2 {
-    grid-area: computer-picked;
- }
 
-/*Rules button*/
-.rules-btn {
+/*Reload button*/
+.reload-btn {
     position: absolute;
-    bottom: 6.0rem;
-    right: 2rem;
+    bottom: 2.0rem;
+    right: 1.0rem;
     background: none;
     border: 2px solid;
     border-radius: 0.6rem;
     color: var(--black-text);
     margin-top: 20px;
-    padding: 10px 25px;
+    padding: 5px 20px;
     font-family: inherit;
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     letter-spacing: 0.1em;
 
 }
-.rules-btn:hover {
+.reload-btn:hover {
     background: black;
     border: 2px solid pink;
     color: white
@@ -124,9 +118,12 @@ body {
 /*Media queries of screen sizes bigger than 768px and up*/
 /*Media queries*/
 @media screen and (min-width :768px) {
-    .game-area {max-width: 700px;
+    .game-area {max-width: 800px;
+        max-height: 700px;
         margin: 10px auto;
         padding-top: 2rem;
+        
+    
 
 
     }
@@ -135,17 +132,10 @@ body {
         padding: 1rem, 1.5rem, 1rem, 2rem;
         font-size: 30px;
     }
-    .score{
-        width: 150px;
-        height: 100%;
+    p {
+        display: none;
     }
-    .score-title {
-        font-size: 1rem;
-    }
-    .score-number {
-        padding-top: 0%;
-        font-size: 4rem;
-    }
+   
     .choice-btn{
     font-size: 3.2rem;
     width: 100px;
@@ -159,22 +149,9 @@ body {
     .game {
         width: 100%;
     }
-    .results-heading1, .results-heading2 {
-        padding: 10px; 
-    }
-    .result1, .result2 {
-        min-width:10rem;
-        min-height: 10rem;
-    }  
-    .rules-btn {
-        bottom: 20rem;
-        right: 10rem;
-    }
+}
     /*Media queries of screen sizes bigger than 992px and up*/
 @media screen and (min-width: 992px){
-    .rules-btn {
-        bottom: 20rem;
-        right: 15rem;
-    }  
-}
+   
+
 }

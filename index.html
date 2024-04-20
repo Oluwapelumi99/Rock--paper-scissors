@@ -12,14 +12,22 @@
 
     <div class="game-area">
     <h1 class="header">Rock Paper Scissors lizard Spock</h1>
-    <section class="results">
-        <h2 class="results-heading1">you picked</h2>
-        <h2 class="results-heading2">computer picked</h2>
-        <div class="result1"></div>
-        <div class="result2"></div>
-    </section>
-  
 
+    <!--Display player and computer score-->
+      <div class="score">
+      <div class="playerScore">
+        <h2>You</h2>
+    <span id="y-score">0</span>
+</div>
+
+
+<div class="computerScore">
+    <h2>Computer</h2>
+    <span id="c-score">0</span> 
+
+</div>
+      </div>
+     <div class="choice"> Pick a choice: </div>
 <section class="game">
     <button class="choice-btn btn-black" data-type="rock">
         <div class="choice-rock">
@@ -44,9 +52,12 @@
     </div>
 </button>
 </section>
+
+<div id="result"></div>
+
+<button class="reload-btn">Reload</button>
 </div>
 
-<button class="rules-btn">Rules</button>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

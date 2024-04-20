@@ -9,7 +9,11 @@
 body {   
         
     background-color: white;
-    font-family: 'zeyada', sans-serif;
+    font-family: 'Zeyada', sans-serif;
+}
+h1 {
+    color: black;
+    text-align: center;
 }
 
 /*Main content*/

@@ -6,9 +6,8 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
-body {   
-        
-    background-color: white;
+body {       
+    background: url("../images./two-boys-playing-rock-paper-scissors.jpg") no-repeat center center/cover;
     font-family: 'Zeyada', sans-serif;
 }
 h1 {
@@ -19,7 +18,7 @@ h1 {
 /*Main content*/
 .game-area { 
     position: relative;
-    background-color: rgb(242, 174, 185);
+    background-color: rgba(242, 174, 185, 0.7);
     padding-top: 2rem;
     margin-top: 2rem;
     box-sizing: border-box;
@@ -95,8 +94,6 @@ h1 {
     max-width: 1000px;
     max-height: 1000px;
     margin: 0 auto;
-   
-
 }
 
 /*Reload button*/
@@ -123,15 +120,17 @@ h1 {
 /*Media queries of screen sizes bigger than 768px and up*/
 /*Media queries*/
 @media screen and (min-width :768px) {
+
     .game-area {max-width: 800px;
         max-height: 700px;
         margin: 10px auto;
-        padding-top: 2rem;
-        
+        padding-top: 1.5rem;
+     }
+      #box {
+        padding-top: 3rem;
+      }
+
     
-
-
-    }
     .header {
         height: 150px;
         padding: 1rem, 1.5rem, 1rem, 2rem;

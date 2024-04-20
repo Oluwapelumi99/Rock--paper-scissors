@@ -11,6 +11,19 @@
       })
     } 
   })
+  //**Modal Rules */
+  const btnRules = document.querySelector('.rules-btn')
+  const btnClose = document.querySelector('.close-btn')
+  const modalRules = document.querySelector('.modal')
+
+  //**Show/Hide Rules */
+  btnRules.addEventListener('click', () => {
+    modalRules.classList.toggle('show-modal')
+  });
+  btnClose.addEventListener('click', () => {
+    modalRules.classList.toggle('show-modal')
+  });
+  //**Choices Rules */
   let rockchoice = document.getElementsByClassName('choice-rock');
   let paperchoice = document.getElementsByClassName('choice-paper');
   let scissorschoice = document.getElementsByClassName('choice-scissors');

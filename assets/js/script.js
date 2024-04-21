@@ -17,10 +17,10 @@
   const modalRules = document.querySelector('.modal')
 
   //**Show/Hide Rules */
-  btnRules.addEventListener('click', () => {
+  btnRules.addEventListener('click', function() {
     modalRules.classList.toggle('show-modal')
   });
-  btnClose.addEventListener('click', () => {
+  btnClose.addEventListener('click', function ()  {
     modalRules.classList.toggle('show-modal')
   });
   //**Choices Rules */

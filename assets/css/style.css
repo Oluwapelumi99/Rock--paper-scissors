@@ -141,7 +141,7 @@ h2 {
  font-size: 20px;
 }
 .show-modal {
- opacity: 1;
+ opacity: 3;
  pointer-events: initial;
 }
 .close-btn {

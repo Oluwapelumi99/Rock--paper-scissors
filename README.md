@@ -27,6 +27,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ## Features
    <li>Favicon</li>
    <li>Game page</li>
+   <li>Modal for rules picture</li>
    <li>404 page</li>
    <li>No script</li>
 
@@ -66,9 +67,13 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    ## Features
 
-   <li>Favicon</li>
-   <li></li>
+   <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The faicon gives a describtion of what game the page is about.</li>
+   ![rock-paper-scissors (1)](https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/399a6eb0-01ae-430c-99b7-fa3b4a3efeb1)
    
+ ### Modal PAGE
+   <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
+ <img width="1710" alt="Screenshot 2024-04-21 at 11 28 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cb8d9d14-5583-4ac4-aced-a8ab1b536dff">
+
 
    ## No script page
 

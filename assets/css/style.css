@@ -46,6 +46,10 @@ h2 {
     padding: 2px;
     font-size: 20px;
 }
+#no-script {
+    color: rgb(174, 242, 217);
+    padding-top: 25px;
+}
 .score{
     display: flex;
     flex-direction: row;
@@ -160,7 +164,7 @@ h2 {
         padding-top: 3rem;
       }
 
-    
+   
     .header {
         height: 150px;
         padding: 1rem, 1.5rem, 1rem, 2rem;

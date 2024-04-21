@@ -51,10 +51,10 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>Icons</li>
 
   ## Color Scheme
-  <li>The colors used for this page -rgb(242, 174, 185); : Used for the game area.</li>
+  <li>The colors used for this page rgba(174, 242, 217, 0.6);  Used for the game area.</li>
   <li> Black color has been used for the text color and colors of the icons, the black color has also been used for the border around that encloses the game area.</li>
-  <li>The background color for the page is white.</li>
-  <li>On the reload button, The background color when the mouse hovers over it is black and border color is pink after hover is -rgb(242, 174, 185); and the border color has been set to black. These have all been done for added accessibility. </li>
+  <li>The background image has been set under the game area, the color of the background image matches the color scheme on the game area</li>
+  <li>On the reload button, The background color when the mouse hovers over it is black and border color is green after hover is -rgba(174, 242, 217,); and the border color has been set to black. These have all been done for added accessibility. </li>
 
   ## Typography
   <li>The prefered font used is 'Zedaya' and sans-serif as been added as a fall back incase the browser does not load the prefered font.</li>
@@ -64,6 +64,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    ## No script page
 
-   A no script page which will look like the image below has been added for users that have disapled javascript on their devices
+  <li>A no script page which will look like the image below has been added for users that have disapled javascript on their devices</li>
+  <img width="1710" alt="Screenshot 2024-04-21 at 11 39 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cf6af071-3799-49b3-b436-26a3f8fb8637">
    
   

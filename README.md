@@ -68,7 +68,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ## Features
 
    <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The faicon gives a describtion of what game the page is about.</li>
-   ![rock-paper-scissors (1)](https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/399a6eb0-01ae-430c-99b7-fa3b4a3efeb1)
+   <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
    
  ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
@@ -77,7 +77,15 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    ## No script page
 
-  <li>A no script page which will look like the image below has been added for users that have disapled javascript on their devices</li>
+  <li>A no script page which will look like the image below has been added for users that have disabled javascript on their devices</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 11 39 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cf6af071-3799-49b3-b436-26a3f8fb8637">
    
   
+
+
+  ## Testing 
+  <li>I tested the HTML page with W3C selector which found some errors.</li>
+  <img width="1705" alt="Screenshot 2024-04-21 at 22 53 21" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/4d41be0d-b835-4c52-ab8f-8b523451ff48">
+
+  <li>These errors have been fixed by making the button element the child element of the div elements and changing the section into a div element. Picture is added below</li>
+  <img width="1710" alt="Screenshot 2024-04-21 at 23 09 10" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/70b223f4-1923-41e2-a4ed-92a11186d6b9">

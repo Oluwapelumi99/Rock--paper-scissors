@@ -59,8 +59,16 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   ## Typography
   <li>The prefered font used is 'Zedaya' and sans-serif as been added as a fall back incase the browser does not load the prefered font.</li>
 
+ ## Imagery
+  <li>A background image has been added to the game area which matches the color scheme of the game area background</li>
+   <img width="1710" alt="Screenshot 2024-04-21 at 11 48 12" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/f6e05d91-7bff-4056-9284-ead50f230f21">
 
 
+   ## Features
+
+   <li>Favicon</li>
+   <li></li>
+   
 
    ## No script page
 

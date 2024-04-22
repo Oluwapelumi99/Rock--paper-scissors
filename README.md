@@ -62,7 +62,8 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
  ## Imagery
   <li>A background image has been added to the game area which matches the color scheme of the game area background</li>
-   <img width="1710" alt="Screenshot 2024-04-21 at 11 48 12" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/f6e05d91-7bff-4056-9284-ead50f230f21">
+   <img width="1710" alt="Screenshot 2024-04-22 at 14 57 43" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/c03c2832-3e91-4ab8-b8e5-f9a9c097c623">
+
 
 
    ## Features
@@ -98,3 +99,13 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   ## <li>Accessibility</li>
   <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And i also made sure all buttons were asseccible by screen readers by adding an aria-label.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
+
+  ## Unfixed bugs
+ <li>There are no unfixed bugs</li>
+
+ ## Technologies used
+<li>https://validator.w3.org</li>
+<li> https://wave.webaim.org</li>
+<li>Lighthouse on google chrome</li>
+<li>Chrome dev tools</li>
+<li>https://code.visualstudio.com</li>

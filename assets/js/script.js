@@ -12,9 +12,9 @@
     } 
   })
   //**Modal Rules */
-  const btnRules = document.querySelector('.rules-btn')
-  const btnClose = document.querySelector('.close-btn')
-  const modalRules = document.querySelector('.modal')
+  let btnRules = document.querySelector('.rules-btn')
+  let btnClose = document.querySelector('.close-btn')
+  let modalRules = document.querySelector('.modal')
 
   //**Show/Hide Rules */
   btnRules.addEventListener('click', function() {
@@ -23,6 +23,9 @@
   btnClose.addEventListener('click', function ()  {
     modalRules.classList.toggle('show-modal')
   });
+  //**Reload Rules */
+   let reloadRules = document.querySelector('.reload-btn')
+   
   //**Choices Rules */
   let rockchoice = document.getElementsByClassName('choice-rock');
   let paperchoice = document.getElementsByClassName('choice-paper');

@@ -115,6 +115,28 @@ h2 {
     border: 2px solid green;
     color: white
 }
+ /*Reload button*/
+.reload-btn {
+    position: absolute;
+    bottom: 2.0rem;
+    left: 1.0rem;
+    background: none;
+    border: 2px solid;
+    border-radius: 0.6rem;
+    color: var(--black-text);
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-family: inherit;
+    font-size: 1.0rem;
+    letter-spacing: 0.1em;
+
+}
+.reload-btn:hover {
+    background: black;
+    border: 2px solid green;
+    color: white
+}
+
 /*Rules Modal*/
 .modal {
     position: absolute;

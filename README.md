@@ -109,3 +109,39 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 <li>Lighthouse on google chrome</li>
 <li>Chrome dev tools</li>
 <li>https://code.visualstudio.com</li>
+
+## Deployment
+The site was deployed to github pages by following the following steps:
+Go to the settings page.
+
+On the left-hand sidebar, in the Code and automation section, select Pages.
+
+Set the source to deploy from <strong>Main branch</strong>
+
+And <strong>Folder</strong> is set to / root.
+
+Under branch click save
+
+Go back to the <strong>Code</strong> tab. Wait a few minutes for the build to finish and refresh your repo.
+
+On the right-hand side, in the <strong>Deployments</strong> section, click on 'github-pages'.
+
+Click <strong>View deployment</strong> to see the live site. The live link is https://github.com/Oluwapelumi99/Rock--paper-scissors.git
+
+You can clone this by copying the URL and opening it on an app called <strong>Codeanywhere</strong>
+
+You select open an account through github. Once the app has opened, you past the url in the field provided after you click on <strong>create new workspace.</strong>
+
+
+
+
+## Credits
+ ### Media
+<li>The picture on the game page has been taken from https://www.pexels.com</li>
+
+ ### Fonts
+<li>The fonts on the page have been added from https://fonts.google.com</li>
+
+### Icons
+<li>Icons have been added to the page from https://fontawesome.com</li>
+ <li>Favicon was added from https://icons8.com</li>

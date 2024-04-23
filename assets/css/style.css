@@ -29,7 +29,7 @@ h2 {
     border-radius: 20px;
     width: 85%;
     height: 65vh;
-    max-height: 530px;
+    max-height: 550px;
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
@@ -55,17 +55,13 @@ h2 {
     flex-direction: row;
   justify-content: space-evenly;
  }
-#y-score, #c-score {
-    text-align: center;
-    font-size: 1.5rem;
-    margin: 0 auto;
-}
+
 /* Game */
  .game{
     display: flex;
     flex-direction: row;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
  }
  .choice{
     text-align: center;
@@ -175,20 +171,27 @@ h2 {
 
 /* Moves Rules*/
 #moves {
-    width: 100px;
-    height: 100px;
     position: absolute;
     display: inline-flex;
-   
+    display: none;
+    padding-top: 10px;
+    left: 18px;
 }
 
-#you {
+ #you, #comp {
     position: relative;
-    font-size: 3.0rem;
+    font-size: 2.5rem;
+    background-color: white;
+    border: 3px solid;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 12px; 
 }
-#comp {
-    position: relative;
-    font-size: 3.0rem;
+#result {
+    font-size: 25px;
+    padding-top: 30px;
 }
 
 
@@ -231,6 +234,27 @@ h2 {
     .game {
         width: 100%;
     }
+    
+   #you {
+    position: relative;
+    font-size: 4.0rem;
+    background-color: white;
+    border: 10px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   
+}
+#comp {
+    position: relative;
+    font-size: 4.0rem;
+    background-color: white;
+    border: 10px solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+   
+}
 }
     /*Media queries of screen sizes bigger than 992px and up*/
 @media screen and (min-width: 992px){

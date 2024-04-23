@@ -39,16 +39,16 @@
   let choiceNumber = Math.floor(Math.random() * 5);
   let computerChoice = computerOptions[choiceNumber];
   let result = document.getElementById('result');
+  let playerScoreBoard = document.getElementById("y-score");
+  let computerScoreBoard = document.getElementById("c-score");
 
-  function playGame() {
-}
   function getComputerChoice() { 
    let computerOptions = ["rock", "paper", "scissors", "lizard", "spock"];
    let choiceNumber = Math.floor(Math.random() * 5);
    let computerChoice = computerOptions[choiceNumber];
    console.log(`Computer choice is ${computerChoice}`);
    return computerChoice;
-   }
+   };
 
   
 
@@ -58,7 +58,7 @@
     if(computerChoice === 'scissors') return   '<i class="fa-solid fa-hand-scissors"></i>'
     if(computerChoice === 'lizard') return   '<i class="fa-solid fa-hand-lizard"></i>'
     return '<i class="fa-solid fa-hand-spock"></i>'
-   }
+   };
    function game(playerChoice) {
     let box = document.getElementById('moves');
     box.style.display = "inline-flex";
@@ -66,84 +66,60 @@
     playerDiv.innerHTML = convert(playerChoice);
     let compDiv = document.getElementById('Comp-icon')
     compDiv.innerHTML = convert(computerChoice);
-   }
+   };
    
   function decideWinner(you, computer) {
-    let result = document.getElementById('result');
-    let playerScoreBoard = document.getElementById("y-score");
-    let computerScoreBoard = document.getElementById("c-score");
     if (you === computer) {
         tie();
     } else if (you === 'rock') {
       if (computer === 'paper') {
-        lose();
-    
-        computerScoreBoard.textcontent = computerScore;
+        lose();  
       }else if (computer === 'scissors') {
-        win();
-        playerScoreBoard.textcontent = playerScore;
+        win()
       } else if (computer === 'lizard') {
         win();
-        playerScoreBoard.textContent = playerScore;
       } else {
         lose();
-        computerScoreBoard.textcontent = computerScore;
       }
     } else if (you === 'paper') {
       if (computer === 'rock') {
         win();
-        playerScoreBoard.textcontent = playerScore;
       }else if (computer === 'scissors') {
         lose();
-        computerScoreBoard.textcontent = computerScore;
       } else if (computer === 'lizard') {
         lose();
-        computerScoreBoard.textcontent = computerScore;
       } else {
         win();
-        playerScoreBoard.textcontent = playerScore;
       }
     }else if (you === 'scissors') {
       if (computer === 'rock') {
         lose();
-        computerScoreBoard.textcontent = computerScore;
       }else if (computer === 'paper') {
         win();
-        playerScoreBoard.textcontent = playerScore;
       } else if (computer === 'lizard') {
         win();
-        playerScoreBoard.textContent = playerScore;
       } else {
-        lose();
-        computerScoreBoard.textcontent = computerScore;
+        lose(); 
       } 
       } else if (you === 'lizard') {
         if (computer === 'rock') {
           lose();
-          computerScoreBoard.textcontent = computerScore;
         }else if (computer === 'paper') {
           win();
-          playerScoreBoard.textcontent = playerScore;
         } else if (computer === 'scissors') {
           lose();
-          computerScoreBoard.textcontent = computerScore;
         } else {
           win();
-          playerScoreBoard.textcontent = playerScore;
         } 
       } else if (you === 'spock') {
         if (computer === 'rock') {
           win();
-          playerScoreBoard.textcontent = playerScore;
         }else if (computer === 'paper') {
           lose();
-          computerScoreBoard.textcontent = computerScore;
         } else if (computer === 'scissors') {
           win();
-          playerScoreBoard.textContent = playerScore;
         } else {
           lose();
-          computerScoreBoard.textcontent = computerScore;
         }
       }
 };
@@ -152,18 +128,27 @@
    let computerChoice = getComputerChoice();
    decideWinner(playerChoice, computerChoice);
   };
-
   function win() {
-    document.getElementById('result').innerHTML = "You win!"
-  
-  }
+    document.getElementById('result').innerHTML = "You win!";
+  alert('You win');
+   incrementPlayerScore();
+  };
   function lose() {
-    document.getElementById('result').innerHTML = "You lose.."
-   
-  
-  }
-
+    document.getElementById('result').innerHTML = "You lose..";
+   alert('You lose..');
+   incrementComputerScore();
+  };
   function tie() {
-    document.getElementById('result').innerHTML = "It's a tie"
-  }
+    document.getElementById('result').innerHTML = "It's a tie";
+    alert("It's a tie")
+  };
+   function incrementPlayerScore() {
+    let playerScore = (document.getElementById('y-score').innerText);
+    document.getElementById('y-score').innerText = ++playerScore;
+   };
   
+   function incrementComputerScore() {
+    let computerScore = (document.getElementById('c-score').innerText);
+    document.getElementById('c-score').innerText = ++computerScore;
+   };
+    

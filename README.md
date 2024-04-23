@@ -98,6 +98,12 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I tested all pages using the https://wave.webaim.org which found no errors.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 15 19 23" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/ddc01602-8aa5-4309-aea9-c665b9f56940">
 
+  <li>I tested the javascript codes with https://jshint.com which add no errors but 37 warnings</li>
+  <img width="1710" alt="Screenshot 2024-04-23 at 23 12 58" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/33befd75-2ebf-4bac-90c0-6d9d829f05b6">
+  
+  <li>The javascript was tested again with https://jshint.com after all warnings have been fixed and there was nothing to fix. Image attached below.</li>
+  <img width="1710" alt="Screenshot 2024-04-23 at 23 32 20" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b6940073-8026-423a-a306-dc095e1b4e3e">
+
 
 
   ## <li>Accessibility</li>
@@ -108,10 +114,13 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
   <li>I tested this site is responsive using the different sizes of devices.</li>
 
+  
+
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>
 
  ## Technologies used
+ <li>https://jshint.com</li>
 <li>https://validator.w3.org</li>
 <li> https://wave.webaim.org</li>
 <li>Lighthouse on google chrome</li>

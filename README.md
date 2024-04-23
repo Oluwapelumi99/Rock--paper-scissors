@@ -61,8 +61,8 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>The prefered font used is 'Zedaya' and sans-serif as been added as a fall back incase the browser does not load the prefered font.</li>
 
  ## Imagery
-  <li>A background image has been added to the game area which matches the color scheme of the game area background</li>
-   <img width="1710" alt="Screenshot 2024-04-22 at 14 57 43" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/c03c2832-3e91-4ab8-b8e5-f9a9c097c623">
+  <li>A background image has been added to the game area which matches the color scheme of the game area background</li>  
+ <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
 
 
@@ -114,7 +114,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
   <li>I tested this site is responsive using the different sizes of devices.</li>
 
-  
+
 
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>

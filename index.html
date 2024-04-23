@@ -36,35 +36,46 @@
      <div class="choice"> Pick a choice: </div>
 <div class="game">
     <div class="choice-rock">
-    <button class="choice-btn btn-black" data-type="rock"  aria-label="click on the rock icon">
+    <button class="choice-btn btn-black" data-type="rock"  aria-label="click on the rock icon"
+           value="rock" onclick="game(this.value)">
             <i class="fa-solid fa-hand-back-fist"></i>
     </button>
 </div>
 <div class="choice-paper">
-    <button class="choice-btn btn-black" data-type="paper"  aria-label="click on the paper icon">
+    <button class="choice-btn btn-black" data-type="paper"  aria-label="click on the paper icon"
+    value="paper" onclick="game(this.value)">
     <i class="fa-solid fa-hand"></i>
 </button>
 </div>
 <div class="choice-scissors">
-<button class="choice-btn btn-black" data-type="scissors"   aria-label="click on the scissors icon">
+<button class="choice-btn btn-black" data-type="scissors"   aria-label="click on the scissors icon"
+     value="scissors" onclick="game(this.value)">
     <i class="fa-solid fa-hand-scissors"></i>
 </button>
 </div>
 <div class="choice-lizard">
-<button class="choice-btn btn-black" data-type="lizard"  aria-label="click on the lizard icon">
+<button class="choice-btn btn-black" data-type="lizard"  aria-label="click on the lizard icon"
+       value="lizard" onclick="game(this.value)">
         <i  class="fa-solid fa-hand-lizard"></i>
 </button>
 </div>
 <div class="choice-spock">
-<button class="choice-btn btn-black" data-type="spock"  aria-label="click on the spock icon">
-    
-        <i class="fa-solid fa-hand-spock"></i>   
+<button class="choice-btn btn-black" data-type="spock"  aria-label="click on the spock icon"
+        value="spock" onclick="game(this.value)">
+    <i class="fa-solid fa-hand-spock"></i>   
 </button>
 </div>
 </div>
-
-<div id="result"></div>
-
+ 
+  <div id="moves">
+    <div id="you">
+      <div id="Your-icon"></div>
+    </div>  
+      <div id="result"></div>
+    <div id="comp">
+      <div id="Comp-icon"></div>
+    </div>
+  </div>
 <button class="rules-btn" tabindex="1">Rules</button>
 <div class="modal">
  <div class="modal-container">

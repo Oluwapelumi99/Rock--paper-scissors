@@ -95,7 +95,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>CSS was tested with W3C Validator and it did not find any errors</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 23 21 00" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/c483598e-f989-4fa4-9493-368bd87e0548">
 
-  <li>I tested all pages using the https://wave.webaim.org</li>
+  <li>I tested all pages using the https://wave.webaim.org which found no errors.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 15 19 23" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/ddc01602-8aa5-4309-aea9-c665b9f56940">
 
 

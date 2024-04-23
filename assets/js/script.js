@@ -26,15 +26,19 @@
   //**Reload Rules */
    let reloadRules = document.querySelector('.reload-btn')
    
-  //**Choices Rules */
+  //**Variables */
   let rockchoice = document.getElementsByClassName('choice-rock');
   let paperchoice = document.getElementsByClassName('choice-paper');
   let scissorschoice = document.getElementsByClassName('choice-scissors');
   let lizardchoice = document.getElementsByClassName('choice-lizard');
   let spockchoice = document.getElementsByClassName('choice-spock');
-  let youOptions = ["rockchoice", "paperchoice", "scissorschoice", "lizardchoice", "spockchoice"];
+  let playerChoice = ["rockChoice", "paperChoice", "scissorsChoice", "lizardChoice", "spockChoice"];
   let playerScore = 0;
   let computerScore = 0;
+  let computerOptions = ["rock", "paper", "scissors", "lizard", "spock"];
+  let choiceNumber = Math.floor(Math.random() * 5);
+  let computerChoice = computerOptions[choiceNumber];
+  let result = document.getElementById('result');
 
   function playGame() {
 }
@@ -45,101 +49,100 @@
    console.log(`Computer choice is ${computerChoice}`);
    return computerChoice;
    }
+
+  
+
+   function convert(computerChoice) {
+    if(computerChoice === 'rock') return   '<i class="fa-solid fa-hand-rock"></i>'
+    if(computerChoice === 'paper') return   '<i class="fa-solid fa-hand"></i>'
+    if(computerChoice === 'scissors') return   '<i class="fa-solid fa-hand-scissors"></i>'
+    if(computerChoice === 'lizard') return   '<i class="fa-solid fa-hand-lizard"></i>'
+    return '<i class="fa-solid fa-hand-spock"></i>'
+   }
+   function game(playerChoice) {
+    let box = document.getElementById('moves');
+    box.style.display = "inline-flex";
+    let playerDiv = document.getElementById('Your-icon')
+    playerDiv.innerHTML = convert(playerChoice);
+    let compDiv = document.getElementById('Comp-icon')
+    compDiv.innerHTML = convert(computerChoice);
+   }
    
   function decideWinner(you, computer) {
     let result = document.getElementById('result');
     let playerScoreBoard = document.getElementById("y-score");
-    let computerScoreBoard = document.getElementById("p-score");
+    let computerScoreBoard = document.getElementById("c-score");
     if (you === computer) {
-      result.textContent = 'It is a tie!'
+        tie();
     } else if (you === 'rock') {
       if (computer === 'paper') {
-        result.textcontent = 'Paper Covers rock.You lose!';
-        computerScore++;
+        lose();
+    
         computerScoreBoard.textcontent = computerScore;
       }else if (computer === 'scissors') {
-        result.textcontent = 'rock crushes scissors. You Win!';
-        playerScore++;
+        win();
         playerScoreBoard.textcontent = playerScore;
       } else if (computer === 'lizard') {
-        result.textContent = 'rock crushes lizard. You win!';
-        playerScore++;
+        win();
         playerScoreBoard.textContent = playerScore;
       } else {
-        result.textContent = 'spock vaporizes rock. You lose!';
-        computerScore++;
+        lose();
         computerScoreBoard.textcontent = computerScore;
       }
     } else if (you === 'paper') {
       if (computer === 'rock') {
-        result.textcontent = 'Paper Covers rock. You win!';
-        playerScore++;
+        win();
         playerScoreBoard.textcontent = playerScore;
       }else if (computer === 'scissors') {
-        result.textcontent = 'scissors cuts paper. You lose';
-        computerScore++;
+        lose();
         computerScoreBoard.textcontent = computerScore;
       } else if (computer === 'lizard') {
-        result.textContent = 'lizard eats paper. You lose';
-        computerScore++;
+        lose();
         computerScoreBoard.textcontent = computerScore;
       } else {
-        result.textContent = 'paper disproves spock. You Win!'
-        playerScore++;
+        win();
         playerScoreBoard.textcontent = playerScore;
       }
     }else if (you === 'scissors') {
       if (computer === 'rock') {
-        result.textcontent = 'rock crushes scissors. You lose';
-        computerScore++;
+        lose();
         computerScoreBoard.textcontent = computerScore;
       }else if (computer === 'paper') {
-        result.textcontent = 'scissors cuts paper. You Win!';
-        playerScore++;
+        win();
         playerScoreBoard.textcontent = playerScore;
       } else if (computer === 'lizard') {
-        result.textContent = 'scissors decapitates lizard. You win!';
-        playerScore++;
+        win();
         playerScoreBoard.textContent = playerScore;
       } else {
-        result.textContent = 'spock smashes scissors. You lose';
-        computerScore++;
+        lose();
         computerScoreBoard.textcontent = computerScore;
       } 
       } else if (you === 'lizard') {
         if (computer === 'rock') {
-          result.textcontent = 'Rock crushes lizard. You lose';
-          computerScore++;
+          lose();
           computerScoreBoard.textcontent = computerScore;
         }else if (computer === 'paper') {
-          result.textcontent = 'lizard eats paper. You Win!';
-          playerScore++;
+          win();
           playerScoreBoard.textcontent = playerScore;
         } else if (computer === 'scissors') {
-          result.textContent = 'scissors decapitates lizard. You lose';
-          computerScore++;
+          lose();
           computerScoreBoard.textcontent = computerScore;
         } else {
-          result.textContent = 'lizard poisons spock. You Win!'
-          playerScore++;
+          win();
           playerScoreBoard.textcontent = playerScore;
         } 
       } else if (you === 'spock') {
         if (computer === 'rock') {
-          result.textcontent = 'spock vaporizes rock. You Win!';
-          playerScore++;
+          win();
           playerScoreBoard.textcontent = playerScore;
         }else if (computer === 'paper') {
-          result.textcontent = 'paper disproves spock. You lose';
-          computerScore++;
+          lose();
           computerScoreBoard.textcontent = computerScore;
         } else if (computer === 'scissors') {
-          result.textContent = 'spock smashes scissors. You win!';
-          playerScore++;
+          win();
           playerScoreBoard.textContent = playerScore;
         } else {
-          result.textContent = 'lizard poisons spock. You lose';
-          computerScore++;
+          lose();
           computerScoreBoard.textcontent = computerScore;
         }
       }
@@ -149,3 +152,18 @@
    let computerChoice = getComputerChoice();
    decideWinner(playerChoice, computerChoice);
   };
+
+  function win() {
+    document.getElementById('result').innerHTML = "You win!"
+  
+  }
+  function lose() {
+    document.getElementById('result').innerHTML = "You lose.."
+   
+  
+  }
+
+  function tie() {
+    document.getElementById('result').innerHTML = "It's a tie"
+  }
+  

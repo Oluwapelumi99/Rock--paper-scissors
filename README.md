@@ -145,7 +145,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <img width="1706" alt="Screenshot 2024-04-24 at 00 16 54" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/fdef3665-1624-4350-93d2-5d7a73c8a06d">
 
 
-   <li></li>
+   <li>I have tested that the game end after all the moves have been exhausted</li>
+    <img width="1710" alt="Screenshot 2024-04-24 at 00 35 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d5c13b76-278a-4f14-a5ea-8b0287be2af0">
+
 
 
 

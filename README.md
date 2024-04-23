@@ -141,6 +141,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <img width="1705" alt="Screenshot 2024-04-24 at 00 14 27" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/23517ebc-d14d-4f59-b51d-675c1b3520f4">
 
 
+   <li>I have tested that the Moves left number starts at 10 and decreases by 1 after each move, as seen after the first move below.</li>
+   <img width="1706" alt="Screenshot 2024-04-24 at 00 16 54" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/fdef3665-1624-4350-93d2-5d7a73c8a06d">
+
+
+   <li></li>
+
+
+
 
 
 

@@ -113,6 +113,15 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   ## Manual Testing 
   <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
   <li>I tested this site is responsive using the different sizes of devices.</li>
+  
+  <li>I have tested that the player Score increases in the javascript after the player wins</li>
+  <img width="1710" alt="Screenshot 2024-04-23 at 20 15 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/a845df80-12d6-4228-bd53-d4aa1b4b448b">
+
+  <li>I have tested that the computer Score increases in the javascript after the player loses</li>
+   <img width="1710" alt="Screenshot 2024-04-23 at 20 14 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/f2f7020c-b790-46ae-a84a-5ecabf652f11">
+
+
+
 
 
 

@@ -120,6 +120,15 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I have tested that the computer Score increases in the javascript after the player loses</li>
    <img width="1710" alt="Screenshot 2024-04-23 at 20 14 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/f2f7020c-b790-46ae-a84a-5ecabf652f11">
 
+   <li>I have tested that the reload button works when clicked on the game page as it restarts the game as shown below, it also works to restart the game after all moves have been exhausted.</li>
+   <img width="1710" alt="Screenshot 2024-04-24 at 00 04 00" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1aff4ba5-5e24-47f7-ace1-02ea65c81f76">
+   
+   <li></li>
+
+
+
+
+
 
 
 

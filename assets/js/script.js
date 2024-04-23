@@ -1,3 +1,6 @@
+ /**
+  * 
+  */
  document.addEventListener("DOMContentLoaded", function(){
     let buttons = this.getElementsByTagName("button");
     for (let button of buttons) {
@@ -10,7 +13,7 @@
         
       })
     } 
-  })
+  });
   //**Modal Rules */
   let btnRules = document.querySelector('.rules-btn')
   let btnClose = document.querySelector('.close-btn')
@@ -24,7 +27,13 @@
     modalRules.classList.toggle('show-modal')
   });
   //**Reload Rules */
-   let reloadRules = document.querySelector('.reload-btn')
+  let reloadRules = document.getElementById('reload-btn')
+   reloadRules.addEventListener('click', function() {
+    window.location.reload();
+    reloadRules.innerText= 'Restart';
+    reloadRules.style.display = 'flex';
+    
+   });
    
   //**Variables */
   let rockchoice = document.getElementsByClassName('choice-rock');
@@ -39,9 +48,12 @@
   let choiceNumber = Math.floor(Math.random() * 5);
   let computerChoice = computerOptions[choiceNumber];
   let result = document.getElementById('result');
-  let playerScoreBoard = document.getElementById("y-score");
-  let computerScoreBoard = document.getElementById("c-score");
+  let movesLeft = 10;
+  if (moves === 10) {
+    gameOver(playerChoice, movesLeft);
+  }
 
+  /** Gets a random choice for computer */
   function getComputerChoice() { 
    let computerOptions = ["rock", "paper", "scissors", "lizard", "spock"];
    let choiceNumber = Math.floor(Math.random() * 5);
@@ -51,7 +63,7 @@
    };
 
   
-
+   /** Converts computer Choice words into their icons*/
    function convert(computerChoice) {
     if(computerChoice === 'rock') return   '<i class="fa-solid fa-hand-rock"></i>'
     if(computerChoice === 'paper') return   '<i class="fa-solid fa-hand"></i>'
@@ -59,12 +71,14 @@
     if(computerChoice === 'lizard') return   '<i class="fa-solid fa-hand-lizard"></i>'
     return '<i class="fa-solid fa-hand-spock"></i>'
    };
+
+   /** Gets player choice and computer choice to display below the options */
    function game(playerChoice) {
     let box = document.getElementById('moves');
     box.style.display = "inline-flex";
     let playerDiv = document.getElementById('Your-icon')
     playerDiv.innerHTML = convert(playerChoice);
-    let compDiv = document.getElementById('Comp-icon')
+    let compDiv = document.getElementById('Comp-icon');
     compDiv.innerHTML = convert(computerChoice);
    };
    
@@ -128,27 +142,69 @@
    let computerChoice = getComputerChoice();
    decideWinner(playerChoice, computerChoice);
   };
+
+  /**
+   * Displays results based on player and computer choice
+   */
   function win() {
     document.getElementById('result').innerHTML = "You win!";
-  alert('You win');
    incrementPlayerScore();
   };
   function lose() {
     document.getElementById('result').innerHTML = "You lose..";
-   alert('You lose..');
    incrementComputerScore();
   };
   function tie() {
     document.getElementById('result').innerHTML = "It's a tie";
-    alert("It's a tie")
   };
+
+  /**Gets the current player score and increases it by 1 after each win */
    function incrementPlayerScore() {
     let playerScore = (document.getElementById('y-score').innerText);
     document.getElementById('y-score').innerText = ++playerScore;
    };
-  
+
+   /**Gets the current player score and increases it by 1 after each win */
    function incrementComputerScore() {
     let computerScore = (document.getElementById('c-score').innerText);
     document.getElementById('c-score').innerText = ++computerScore;
    };
+
+   /** Reduces Moves left to reach game over and decide winner */
+   function decreaseMovesLeft() {
+    let movesLeft = (document.getElementById('moves-left').innerText);
+    document.getElementById('moves-left').innerText = movesLeft--;
+   }
     
+  function restartGame(playerChoice, movesLeft) {
+      let pickChoice = document.getElementById('choice');
+      let result = document.getElementById('result');
+      let reloadRules = document.getElementById('reload-btn');
+      playerChoice.forEach(option => {
+        option.style.display = 'none';
+      });
+
+      pickChoice.innerText = 'Game over !!'
+      movesLeft.style.display = 'none';
+
+      if (playerScore > computerScore) {
+        result.style.fontSize = '2rem';
+        result.innerText = 'You Won The Game'
+        result.style.color = 'black'
+      } else if (playerScore < computerScore) {
+        result.style.fontSize = '2rem';
+        result.innerText = 'You Lost The Game'
+        result.style.color = 'black'
+      } else {
+        result.style.fontSize = '2rem';
+        result.innerText = 'It was a tie';
+        result.style.color = 'black';
+      }
+      reloadRules.addEventListener('click', function() {
+        window.location.reload();
+        reloadRules.innerText= 'Restart';
+        reloadRules.style.display = 'flex';
+        
+       })
+    };
+  

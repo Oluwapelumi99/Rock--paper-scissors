@@ -104,6 +104,10 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And i also made sure all buttons were asseccible by screen readers by adding an aria-label.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
 
+  ## Manual Testing 
+  <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
+  <li>I tested this site is responsive using the different sizes of devices.</li>
+
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>
 

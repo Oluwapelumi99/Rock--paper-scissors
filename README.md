@@ -4,6 +4,9 @@ In this project, I have created a rock,paper scissors Lizard spork
 Rock paper scissors Lizard spork is a game of chance, it is an expansion of the classic rock, paper,scissors, this xpansion was created in movie The Big Bang Theory. In this version, 2 additional choices are added, "Lizard" and "Spock" which helps to reduce the likely hood of ties and provide more strategic options.
 Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and reveals it at the same time. The winner is the one who defeats the other. In a tie, the process is repeated until a winnner is found.
 
+ <img width="1710" alt="Screenshot 2024-04-24 at 14 38 36" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/5b71a350-7ef6-4dac-b1b6-8c59f289efea">
+
+
 ## The rules of the game are:
  ### Scissors cuts paper.
  ### Paper covers Rock.

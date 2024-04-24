@@ -1,5 +1,6 @@
  /**
-  * 
+  * Wait for the DOM to finish loading before running the game
+  * Get the button elements and Add eventlisteners to them.
   */
  document.addEventListener("DOMContentLoaded", addGameTileListeners);
   function addGameTileListeners(){
@@ -185,7 +186,6 @@
       endGame(movesLeftSpan);
     }
    }
-    
   function endGame(movesLeftSpan) {
       let pickChoice = document.getElementById('choice');
       let result = document.getElementById('result');

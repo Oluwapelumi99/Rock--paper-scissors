@@ -1,7 +1,7 @@
-# ROCK, PAPER, SCISSORS, LIZARD, SPORK.
+# ROCK, PAPER, SCISSORS, LIZARD, SPOCK.
 
-In this project, I have created a rock,paper scissors Lizard spork
-Rock paper scissors Lizard spork is a game of chance, it is an expansion of the classic rock, paper,scissors, this xpansion was created in movie The Big Bang Theory. In this version, 2 additional choices are added, "Lizard" and "Spock" which helps to reduce the likely hood of ties and provide more strategic options.
+In this project, I have created a rock,paper scissors Lizard spock.
+This is a game of chance, it is an expansion of the classic rock, paper,scissors, this expansion was created in movie The Big Bang Theory. In this version, 2 additional choices are added, "Lizard" and "Spock" which helps to reduce the likely hood of ties and provide more strategic options.
 Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and reveals it at the same time. The winner is the one who defeats the other. In a tie, the process is repeated until a winnner is found.
 
  <img width="1710" alt="Screenshot 2024-04-24 at 14 38 36" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/5b71a350-7ef6-4dac-b1b6-8c59f289efea">
@@ -43,6 +43,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   ## Validator testing
    <li>HTML</li>
    <li>CSS</li>
+   <li>JAVASCRIPT</li>
    <li>Accessibility</li>
 
   ## Unfixed bugs
@@ -54,15 +55,16 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>Media</li> 
   <li>Fonts</li>
   <li>Icons</li>
+  <li>Content</li>
 
   ## Color Scheme
-  <li>The colors used for this page rgba(174, 242, 217, 0.6);  Used for the game area.</li>
+  <li>The colors used for this page rgba(174, 242, 217, 0.6); was Used for the game area.</li>
   <li> Black color has been used for the text color and colors of the icons, the black color has also been used for the border around that encloses the game area.</li>
   <li>The background image has been set under the game area, the color of the background image matches the color scheme on the game area</li>
   <li>On the reload button, The background color when the mouse hovers over it is black and border color is green after hover is -rgba(174, 242, 217,); and the border color has been set to black. These have all been done for added accessibility. </li>
 
   ## Typography
-  <li>The prefered font used is 'Zedaya' and sans-serif as been added as a fall back incase the browser does not load the prefered font.</li>
+  <li>The prefered font used is 'Zedaya' and sans-serif has been added as a fall back incase the browser does not load the prefered font.</li>
 
   ## Imagery
   <li>A background image has been added to the game area which matches the color scheme of the game area background</li>  
@@ -71,14 +73,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ## Features
    
    ### Favicon
-   <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The favicon gives a describtion of what game the page is about.Favicon was gotten from https://icons8.com</li>
+   <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The favicon gives a description of what game the page is about.Favicon was gotten from https://icons8.com</li>
    <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
    
    ### Game page
    <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
    ### Rules page
-   <li>A rules image have been added to the game which shows after clicking on the rules button and closes after the close button on the rules image is clicked. The size of the image has been reduced so as not to interfere with the styling on screens with width smaller than the image. However, rules can still be seen with direction of the arrows.</li>
+   <li>A rules image has been added to the game which shows after clicking on the rules button and closes after the close button on the rules image is clicked. The size of the image has been reduced so as not to interfere with the styling on screens with width smaller than the image. However, rules can still be seen with direction of the arrows.</li>
    <img width="704" alt="Screenshot 2024-04-24 at 23 08 07" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d40ffa7c-7489-4cf3-8dac-788724614300">
 
    <li>I have added a restart function  that works to restart the game after the game is over.</li>
@@ -119,23 +121,17 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>The javascript was tested again with https://jshint.com after all warnings have been fixed and there was nothing to fix. Image attached below.</li>
   <img width="1710" alt="Screenshot 2024-04-23 at 23 32 20" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b6940073-8026-423a-a306-dc095e1b4e3e">
 
-  ## <li>Accessibility</li>
-  <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And I also made sure all buttons were asseccible by screen readers by adding an aria-label attribute to each button</li>
-  <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
-
-  <li>I tested the 404 page for accessibility with lighthouse in the Chrome dev tools and it was 100% accessible.<li>
-  <img width="1710" alt="Screenshot 2024-04-24 at 23 23 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/20b7a989-b846-4de5-a894-a395f55e30ca">
-
   ## Manual Testing 
   <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
-  <li>I tested this site is responsive using the different sizes of devices.</li>
+  <li>I tested this site is responsive using different sizes of devices.</li>
   
   <li>I have tested that the player Score increases in the javascript after the player wins</li>
   <img width="1710" alt="Screenshot 2024-04-23 at 20 14 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/f2f7020c-b790-46ae-a84a-5ecabf652f11">
 
   <li>I have tested that the computer Score increases in the javascript after the player loses</li>
    <img width="1710" alt="Screenshot 2024-04-23 at 20 15 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/a845df80-12d6-4228-bd53-d4aa1b4b448b">
-   <li>I have tested that the reload button works when clicked on the game page as it restarts the game as shown below, it also works to restart the game after all moves have been exhausted.</li>
+
+   <li>I have tested that the reload button works when clicked on as it restarts the game as shown below, it also works to restart the game after all moves have been exhausted.</li>
    <img width="1710" alt="Screenshot 2024-04-24 at 00 04 00" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1aff4ba5-5e24-47f7-ace1-02ea65c81f76">
    
    <li>I have tested that the rock, paper, scissors, lizard, spock button works</li>
@@ -158,35 +154,50 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <li>I have tested that the Moves left number starts at 10 and decreases by 1 after each move, as seen after the first move below.</li>
    <img width="1706" alt="Screenshot 2024-04-24 at 00 16 54" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/fdef3665-1624-4350-93d2-5d7a73c8a06d">
 
-   <li>I have tested that the game end after all the moves have been exhausted</li>
+   <li>I have tested that the game ends after all the moves have been exhausted</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 00 35 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d5c13b76-278a-4f14-a5ea-8b0287be2af0">
     
 
-   <li>I have tested the rules button works when clicked and opened the rules picture as seeen below</li>
+   <li>I have tested the rules button works when clicked and shows the rules picture as seen below</li>
     <img width="1706" alt="Screenshot 2024-04-24 at 22 38 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1216da2e-cc94-4371-850f-f3088891e000">
 
-   <li>I have tested that the close button works when clicked and it takes the rules picture of the page as seen below.</li>
+   <li>I have tested that the close button on the rules image works when clicked and it takes the rules picture off the page as seen below.</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 22 59 39" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/3959066a-8177-473f-a2bc-b9e683a69b4b">
 
    <li>I have tested that the restart button works after the game is over to start a new game.</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 23 57 41" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/9c45e1e0-340a-46a8-b4ac-ad40c43cddfb">
+  
+   ### Bugs
+   <li>Solved bugs</li>
+   <li>I tested the HTML page with W3C selector which found some errors.</li>
+  <img width="1705" alt="Screenshot 2024-04-21 at 22 53 21" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/4d41be0d-b835-4c52-ab8f-8b523451ff48">
 
-
-  ## Unfixed bugs
- <li>There are no unfixed bugs</li>
+  <li>These errors have been fixed by making the button element the child element of the div elements and changing the section into a div element. Picture is added below</li>
+  <img width="1710" alt="Screenshot 2024-04-21 at 23 09 10" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/70b223f4-1923-41e2-a4ed-92a11186d6b9">
 
   ## Validator testing
    <li>HTML </li>
   The HTML codes were tested again after fixing the bug and no errors were found after passing through the official W3C validator".
 
   <li>CSS</li>
-  There were no bugs to fix when tested through the W3C validator.
+  There were no more bugs to fix when tested through the W3C validator.
 
   <li>Javascript</li>
   The Javascript was tested again through the https://jshint.com after the warnings were fixed and there were any more warnings.
 
+  ## <li>Accessibility</li>
+  <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And I also made sure all buttons were asseccible by screen readers by adding an aria-label attribute to each button</li>
+  <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
+
+  <li>I tested the 404 page for accessibility with lighthouse in the Chrome dev tools and it was 100% accessible.<li>
+  <img width="1710" alt="Screenshot 2024-04-24 at 23 23 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/20b7a989-b846-4de5-a894-a395f55e30ca">
+
+   ## Unfixed bugs
+ <li>There are no unfixed bugs</li>
+
+
   ## Cloning and Forking
-  <li>In other to clone this repository, you will log in to https://github.com, then click on <strong>code</strong> and then click on the <strong>HTTPS</strong> link and then paste it into which ever application you will be using to code.</li>
+  <li>To clone this repository, you will log in to https://github.com, then click on the <strong>code</strong> with green background in the right side of the page and then click on the <strong>HTTPS</strong> link, copy it  and then paste it into the application you will be using to code.</li>
   <li>To fork this repository, you will need to log in to https://github.com, then scroll to the top and click on the <strong> fork</strong> in the top right corner of the code page.</li>
 
  ## Technologies used
@@ -231,5 +242,5 @@ You select open an account through github. Once the app has opened, you past the
  <li>Favicon was added from https://icons8.com</li>
 
  ### Content 
- <li>Modal Rules code gotten from https://freecodecamp.org</li>
- <li>Rules image gotten from https://momsminivan.com</li>
+ <li>Modal Rules codes were gotten from https://freecodecamp.org</li>
+ <li>Rules image was gotten from https://momsminivan.com</li>

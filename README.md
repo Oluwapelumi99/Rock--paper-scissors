@@ -42,7 +42,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <li>Accessibility</li>
 
   ## Unfixed bugs
-
+  ## Cloning and Forking
   ## Technologies used
   ## Deployment
   ## Credits
@@ -164,6 +164,10 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>
+
+  ## Cloning and Forking
+  <li>In other to clone this page, you will log in to https://github.com, then click on <strong>code</strong> and then click on the <strong>HTTPS</strong> link and then paste it into which ever application you will be using to code.</li>
+  <li>To fork this project, you will need to log in to https://github.com, then scroll to the top and click on the <strong> fork</strong> in the top right corner of the code page.</li>
 
  ## Technologies used
  <li>https://jshint.com</li>

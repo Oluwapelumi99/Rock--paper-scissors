@@ -49,7 +49,7 @@ h2 {
     color: rgb(174, 242, 217);
     padding-top: 25px;
 }
- #error-page > h1 {
+ #error-page ~ h1 {
     color: rgb(174, 242, 217);
     padding-top: 25px;
     font-size: 1.2rem;

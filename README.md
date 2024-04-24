@@ -19,11 +19,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
  ### Spock vaporizes Rock
  ### Rock crushes scissors.
 
-
- rock-<i class="fa-solid fa-hand-lizard"></i>
-
-
-  # Table of Content
+   # Table of Content
    
    ## Design
    <li>Colour Scheme</li>
@@ -32,6 +28,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    ## Features
    <li>Favicon</li>
+   <li>Game page</li>
    <li>Rules Picture</li>
    <li>Modal for rules picture</li>
    <li>404 page</li>
@@ -66,7 +63,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   ## Typography
   <li>The prefered font used is 'Zedaya' and sans-serif as been added as a fall back incase the browser does not load the prefered font.</li>
 
- ## Imagery
+  ## Imagery
   <li>A background image has been added to the game area which matches the color scheme of the game area background</li>  
  <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
@@ -75,12 +72,13 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ### Favicon
    <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The favicon gives a describtion of what game the page is about.Favicon was gotten from https://icons8.com</li>
    <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
+   
+   ### Game page
+   <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
    ### Rules page
-   <li>A rules image have been added to the game which shows after clicking on the rules button and closes after the close button the i=rules image is clicked </li>
+   <li>A rules image have been added to the game which shows after clicking on the rules button and closes after the close button on the rules image is clicked. The size of the image has been reduced so as not to interfere with the styling on screens with width smaller than the image. However, rules can still be seen with direction of the arrows.</li>
    <img width="704" alt="Screenshot 2024-04-24 at 23 08 07" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d40ffa7c-7489-4cf3-8dac-788724614300">
-
-
    
    ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
@@ -90,8 +88,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>A 404 page has been added to the page incase a user inputs the wrong address and the page contains a link to take them back to the game.</li>
   <img width="1710" alt="Screenshot 2024-04-24 at 11 00 13" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/2f4627e5-0272-4001-8afc-6930ac6f427b">
 
-
-   ## No script page
+   ### No script page
   <li>A no script page which will look like the image below has been added for users that have disabled javascript on their devices</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 11 39 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cf6af071-3799-49b3-b436-26a3f8fb8637">
 
@@ -224,5 +221,9 @@ You select open an account through github. Once the app has opened, you past the
 <li>The fonts on the page have been added from https://fonts.google.com</li>
 
 ### Icons
-<li>Icons have been added to the page from https://fontawesome.com</li>
+ <li>Icons have been added to the page from https://fontawesome.com. The icons have been added to Rock , paper, scissors, lizard, spock buttons</li>
  <li>Favicon was added from https://icons8.com</li>
+
+ ### Content 
+ <li>Modal Rules code gotten from https://freecodecamp.org</li>
+ <li>Rules image gotten from https://momsminivan.com</li>

@@ -29,7 +29,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    ## Features
    <li>Favicon</li>
-   <li>Game page</li>
+   <li>Rules Picture</li>
    <li>Modal for rules picture</li>
    <li>404 page</li>
    <li>No script</li>
@@ -70,8 +70,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ## Features
    
    ### Favicon
-   <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The faicon gives a describtion of what game the page is about.</li>
+   <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The favicon gives a describtion of what game the page is about.Favicon was gotten from https://icons8.com</li>
    <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
+
+   ### Rules page
+   <li>A rules image have been added to the game which shows after clicking on the rules button and closes after the close button the i=rules image is clicked </li>
+   <img width="704" alt="Screenshot 2024-04-24 at 23 08 07" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d40ffa7c-7489-4cf3-8dac-788724614300">
+
+
    
    ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
@@ -113,6 +119,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And I also made sure all buttons were asseccible by screen readers by adding an aria-label attribute to each button</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
 
+  <li>I tested the 404 page for accessibility with lighthouse in the Chrome dev tools and it was 100% accessible.<li>
+  <img width="1710" alt="Screenshot 2024-04-24 at 23 23 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/20b7a989-b846-4de5-a894-a395f55e30ca">
+
   ## Manual Testing 
   <li>I tested that this page works severally using different browsers : Chrome , safari , firefox.</li>
   <li>I tested this site is responsive using the different sizes of devices.</li>
@@ -148,13 +157,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <li>I have tested that the game end after all the moves have been exhausted</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 00 35 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d5c13b76-278a-4f14-a5ea-8b0287be2af0">
     
-    <li> I have tested the rules button works when clicked and opened the rules picture as seeen below</li>
+
+   <li>I have tested the rules button works when clicked and opened the rules picture as seeen below</li>
     <img width="1706" alt="Screenshot 2024-04-24 at 22 38 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1216da2e-cc94-4371-850f-f3088891e000">
 
-    <li>I have tested that the close button works when clicked and it takes the rules picture of the page as seen below.</li>
+   <li>I have tested that the close button works when clicked and it takes the rules picture of the page as seen below.</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 22 59 39" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/3959066a-8177-473f-a2bc-b9e683a69b4b">
 
-
+    
 
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>

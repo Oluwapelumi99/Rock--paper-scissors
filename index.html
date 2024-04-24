@@ -1,105 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Favicon-->
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/rock-paper-scissors.png">
-     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, paper, scissors.</title>
-    <!--Font awesome-->
-    <script src="https://kit.fontawesome.com/3dac582a5a.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Favicon-->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/rock-paper-scissors.png">
+  <!--Stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Rock, paper, scissors.</title>
+  <!--Font awesome-->
+  <script src="https://kit.fontawesome.com/3dac582a5a.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <!--Code for no script on devices with disabled Javascript-->
-   <noscript> 
+  <noscript>
     <h1 id="no-script"> This site requires javascript to work. <br>
-     Please enable javascript within your browser settings.</h1>
-   </noscript>
+      Please enable javascript within your browser settings.</h1>
+  </noscript>
 
-   <!--Game area-->
-    <div id="box">
+  <!--Game area-->
+  <div id="box">
     <div class="game-area">
-    <h1 class="header">Rock Paper Scissors Lizard Spock</h1>
+      <h1 class="header">Rock Paper Scissors Lizard Spock</h1>
 
-    <!--Display player and computer score-->
+      <!--Display player and computer score-->
       <div class="score">
-      <div class="playerScore">
-        <h2>You</h2>
-    <span id="y-score">0</span>
-</div>
-<div class="computerScore">
-    <h2>Computer</h2>
-    <span id="c-score">0</span>
-</div>
+        <div class="playerScore">
+          <h2>You</h2>
+          <span id="y-score">0</span>
+        </div>
+        <div class="computerScore">
+          <h2>Computer</h2>
+          <span id="c-score">0</span>
+        </div>
       </div>
-     <div id="choice"> Pick a choice</div>
-     <div id="move">Moves left: <span id="moves-left">10</span> 
-     </div>
-     <!-- Game buttons-->
-<div class="game">
-    <div class="choice-rock">
-    <button class="choice-btn btn-black" data-type="rock"  aria-label="click on the rock icon"
-           value="rock" onclick="game(this.value)">
+      <div id="choice"> Pick a choice</div>
+      <div id="move">Moves left: <span id="moves-left">10</span>
+      </div>
+      <!-- Game buttons-->
+      <div class="game">
+        <div class="choice-rock">
+          <button class="choice-btn btn-black" data-type="rock" aria-label="click on the rock icon" value="rock"
+            onclick="game(this.value)">
             <i class="fa-solid fa-hand-back-fist"></i>
-    </button>
-</div>
-<div class="choice-paper">
-    <button class="choice-btn btn-black" data-type="paper"  aria-label="click on the paper icon"
-    value="paper" onclick="game(this.value)">
-    <i class="fa-solid fa-hand"></i>
-</button>
-</div>
-<div class="choice-scissors">
-<button class="choice-btn btn-black" data-type="scissors"   aria-label="click on the scissors icon"
-     value="scissors" onclick="game(this.value)">
-    <i class="fa-solid fa-hand-scissors"></i>
-</button>
-</div>
-<div class="choice-lizard">
-<button class="choice-btn btn-black" data-type="lizard"  aria-label="click on the lizard icon"
-       value="lizard" onclick="game(this.value)">
-        <i class="fa-solid fa-hand-lizard"></i>
-</button>
-</div>
-<div class="choice-spock">
-<button class="choice-btn btn-black" data-type="spock"  aria-label="click on the spock icon"
-        value="spock" onclick="game(this.value)">
-    <i class="fa-solid fa-hand-spock"></i>   
-</button>
-</div>
-</div>
-<!--Display player and computer moves-->
-  <div id="moves">
-    <div id="you">
-      <div id="Your-icon"></div>
-    </div>  
-      <div id="result"></div>
-    <div id="comp">
-      <div id="Comp-icon"></div>
+          </button>
+        </div>
+        <div class="choice-paper">
+          <button class="choice-btn btn-black" data-type="paper" aria-label="click on the paper icon" value="paper"
+            onclick="game(this.value)">
+            <i class="fa-solid fa-hand"></i>
+          </button>
+        </div>
+        <div class="choice-scissors">
+          <button class="choice-btn btn-black" data-type="scissors" aria-label="click on the scissors icon"
+            value="scissors" onclick="game(this.value)">
+            <i class="fa-solid fa-hand-scissors"></i>
+          </button>
+        </div>
+        <div class="choice-lizard">
+          <button class="choice-btn btn-black" data-type="lizard" aria-label="click on the lizard icon" value="lizard"
+            onclick="game(this.value)">
+            <i class="fa-solid fa-hand-lizard"></i>
+          </button>
+        </div>
+        <div class="choice-spock">
+          <button class="choice-btn btn-black" data-type="spock" aria-label="click on the spock icon" value="spock"
+            onclick="game(this.value)">
+            <i class="fa-solid fa-hand-spock"></i>
+          </button>
+        </div>
+      </div>
+      <!--Display player and computer moves-->
+      <div id="moves">
+        <div id="you">
+          <div id="Your-icon"></div>
+        </div>
+        <div id="result"></div>
+        <div id="comp">
+          <div id="Comp-icon"></div>
+        </div>
+      </div>
+      <!--Display rules picture-->
+      <button class="rules-btn" tabindex="1">Rules</button>
+      <div class="modal">
+        <div class="modal-container">
+          <header class="modal-header">
+            <h2 class="modal-heading">Rules</h2>
+            <button class="close-btn">
+              <!-- Close button image-->
+              <img src="./assets/images/close.png" alt="Close button">
+            </button>
+          </header>
+          <!-- Rules image-->
+          <img src="./assets/images/rules-image.jpg" alt="Rules Image" class="rules-img">
+        </div>
+      </div>
+      <!-- Reload page-->
+      <button id="reload-btn">Reload</button>
     </div>
   </div>
-  <!--Display rules picture-->
-<button class="rules-btn" tabindex="1">Rules</button>
-<div class="modal">
- <div class="modal-container">
-    <header class="modal-header">
-    <h2 class="modal-heading">Rules</h2>
-    <button class="close-btn">
-      <!-- Close button image-->
-        <img src="./assets/images/close.png" alt="Close button">
-    </button>
-   </header>
-   <!-- Rules image-->
-     <img src="./assets/images/rules-image.jpg" alt="Rules Image" class="rules-img">
- </div>   
-</div>
-<!-- Reload page-->
-  <button id="reload-btn">Reload</button>
-</div>
-</div>
-<!--Java script-->
-    <script src="assets/js/script.js"></script>
+  <!--Java script-->
+  <script src="assets/js/script.js"></script>
 </body>
+
 </html>

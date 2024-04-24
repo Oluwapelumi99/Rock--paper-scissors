@@ -3,24 +3,28 @@
     padding: 0;
     margin: 0;
 }
-/*Fonts*/
- @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
 
- /* Body styling*/
-body {       
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+/* Body styling*/
+body {
     background: url("../images/2-boys-playing-rock-paper-scissors.jpg")no-repeat center center/cover;
     font-family: 'Zeyada', sans-serif;
     height: 850px;
 }
+
 h1 {
     color: black;
     text-align: center;
 }
+
 h2 {
     font-size: 15px;
 }
+
 /*Main content*/
-.game-area { 
+.game-area {
     position: relative;
     background-color: rgba(174, 242, 217, 0.6);
     padding-top: 2rem;
@@ -33,12 +37,14 @@ h2 {
     max-width: 100vw;
     margin-left: auto;
     margin-right: auto;
-        
+
 }
+
 #box {
     padding-top: 2rem;
     margin-top: 2rem;
 }
+
 .header {
     display: flex;
     justify-content: space-evenly;
@@ -46,32 +52,35 @@ h2 {
     padding: 2px;
     font-size: 20px;
 }
- 
-.score{
+
+.score {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
- }
+}
 
 /* Game */
- .game{
+.game {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
- }
- #choice{
+}
+
+#choice {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 1.5rem;
- }
- #move {
+}
+
+#move {
     text-align: center;
     padding-bottom: 15px;
     padding-top: 15px;
     font-size: 0.9rem;
- }
+}
+
 .choice-btn {
     border-radius: 50%;
     background-color: white;
@@ -81,10 +90,12 @@ h2 {
     font-size: 2.5rem;
     transition: all 0.5s;
 }
+
 .btn-black {
     border-color: black;
     color: black;
 }
+
 .btn-black:active,
 .btn-black:hover {
     background-color: black;
@@ -107,12 +118,14 @@ h2 {
     letter-spacing: 0.1em;
 
 }
+
 .rules-btn:hover {
     background: black;
     border: 2px solid green;
     color: white
 }
- /*Reload button*/
+
+/*Reload button*/
 #reload-btn {
     position: absolute;
     bottom: 2.0rem;
@@ -128,6 +141,7 @@ h2 {
     letter-spacing: 0.1em;
 
 }
+
 #reload-btn:hover {
     background: black;
     border: 2px solid green;
@@ -148,24 +162,28 @@ h2 {
     transition: opacity 0.3s ease-in-out;
     pointer-events: none;
 }
+
 .modal-container {
     background: white;
 }
 
 .modal-header {
-   display: flex;
-   width: 100%;
-   justify-content: space-between;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
+
 .modal-heading {
-   padding-top: 10px;
-   margin-top: 10px;
-   font-size: 20px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: 20px;
 }
+
 .show-modal {
-   opacity: 3;
-   pointer-events: initial;
+    opacity: 3;
+    pointer-events: initial;
 }
+
 .close-btn {
     border: none;
     outline: none;
@@ -182,7 +200,8 @@ h2 {
     left: 25px;
 }
 
- #you, #comp {
+#you,
+#comp {
     position: relative;
     font-size: 2.5rem;
     background-color: white;
@@ -191,8 +210,9 @@ h2 {
     width: 60px;
     height: 60px;
     padding-top: 10px;
-    padding-left: 12px; 
+    padding-left: 12px;
 }
+
 #result {
     font-size: 20px;
     padding-top: 30px;
@@ -203,19 +223,22 @@ h2 {
     color: rgb(174, 242, 217);
     padding-top: 25px;
 }
+
 /* 404 page styling*/
- #error-page  {
+#error-page {
     color: rgb(174, 242, 217);
     padding-top: 25px;
     font-size: 1.2rem;
     text-align: center;
- }
- #error {
+}
+
+#error {
     color: rgb(174, 242, 217);
     text-align: center;
     font-size: 2.5rem;
- }
- p .click-here {
+}
+
+p .click-here {
     color: rgb(174, 242, 217);
     text-decoration: none;
     border-bottom: 1px solid rgb(174, 242, 217);
@@ -227,41 +250,47 @@ h2 {
 /*Media queries*/
 @media screen and (min-width :768px) {
 
-    .game-area {max-width: 900px;
+    .game-area {
+        max-width: 900px;
         height: 700px;
         margin: 10px auto;
         padding-top: 2.5rem;
-     }
-      #box {
+    }
+
+    #box {
         padding-top: 3rem;
 
-      }
+    }
 
     body {
         height: 950px;
     }
+
     .header {
         height: 150px;
         padding: 1rem, 1.5rem, 1rem, 2rem;
         font-size: 30px;
     }
+
     h2 {
         font-size: 25px;
     }
+
     .choice {
         display: none;
     }
-   
-    .choice-btn{
-    font-size: 4.0rem;
-    width: 120px;
-    height: 120px;
-    align-items: center;
-    padding-top: 20px;
-    border: 10px solid;   
-    margin: 2px;
-    
+
+    .choice-btn {
+        font-size: 4.0rem;
+        width: 120px;
+        height: 120px;
+        align-items: center;
+        padding-top: 20px;
+        border: 10px solid;
+        margin: 2px;
+
     }
+
     .game {
         width: 100%;
     }
@@ -270,17 +299,18 @@ h2 {
         left: 28%;
         padding-top: 20px;
     }
-    
-   #you ,#comp {
-    position: relative;
-    font-size: 4.0rem;
-    background-color: white;
-    border: 10px solid;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
-    padding-left: 30px; 
-   
-}
+
+    #you,
+    #comp {
+        position: relative;
+        font-size: 4.0rem;
+        background-color: white;
+        border: 10px solid;
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+        padding-top: 25px;
+        padding-left: 30px;
+
+    }
 }

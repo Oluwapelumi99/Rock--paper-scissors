@@ -90,10 +90,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>These errors have been fixed by making the button element the child element of the div elements and changing the section into a div element. Picture is added below</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 23 09 10" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/70b223f4-1923-41e2-a4ed-92a11186d6b9">
 
+  <li>I have tested the 404 html page with W3C selector and it found no errors</li>
+  <img width="1694" alt="Screenshot 2024-04-24 at 11 06 18" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/e1167a0b-8db9-4521-939f-caa3673fd5ee">
+
+
   <li>CSS was tested with W3C Validator and it did not find any errors</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 23 21 00" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/c483598e-f989-4fa4-9493-368bd87e0548">
 
-  <li>I tested all pages using the https://wave.webaim.org which found no errors.</li>
+  <li>I tested the game page using the https://wave.webaim.org which found no errors.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 15 19 23" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/ddc01602-8aa5-4309-aea9-c665b9f56940">
 
   <li>I tested the javascript codes with https://jshint.com which add no errors but 37 warnings</li>

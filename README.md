@@ -20,6 +20,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
  ### Rock crushes scissors.
 
 
+ rock-<i class="fa-solid fa-hand-lizard"></i>
+
+
   # Table of Content
    
    ## Design

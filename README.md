@@ -75,7 +75,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    
    ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
- <img width="1710" alt="Screenshot 2024-04-21 at 11 28 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cb8d9d14-5583-4ac4-aced-a8ab1b536dff">
+   <img width="1706" alt="Screenshot 2024-04-24 at 22 38 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1216da2e-cc94-4371-850f-f3088891e000">
 
    ### 404 Page 
   <li>A 404 page has been added to the page incase a user inputs the wrong address and the page contains a link to take them back to the game.</li>
@@ -147,6 +147,12 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
    <li>I have tested that the game end after all the moves have been exhausted</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 00 35 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d5c13b76-278a-4f14-a5ea-8b0287be2af0">
+    
+    <li> I have tested the rules button works when clicked and opened the rules picture as seeen below</li>
+    <img width="1706" alt="Screenshot 2024-04-24 at 22 38 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1216da2e-cc94-4371-850f-f3088891e000">
+
+    <li></li>
+
 
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>

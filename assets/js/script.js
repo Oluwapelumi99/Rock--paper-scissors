@@ -1,10 +1,10 @@
  /**
   * Wait for the DOM to finish loading before running the game
   * Get the button elements and Add eventlisteners to them.
-  */
+  */ 
  document.addEventListener("DOMContentLoaded", addGameTileListeners);
   function addGameTileListeners(){
-    let buttons = document.getElementsByTagName("button");
+    let buttons = document.getElementsByClassName("choice-btn");
     for (let button of buttons) {
         button.addEventListener("click", gameTileListeners);
     } 
@@ -14,12 +14,13 @@
   runGame(playerChoice);
   } 
   function removeGameTileListeners() {
-    let buttons = document.getElementsByTagName('button');
+    let buttons = document.getElementsByTagName('choice-btn');
     for (let button of buttons) {
       button.removeEventListener('click', gameTileListeners);
     }
-  }
+  } 
   //**Modal Rules */
+
   let btnRules = document.querySelector('.rules-btn');
   let btnClose = document.querySelector('.close-btn');
   let modalRules = document.querySelector('.modal');
@@ -31,6 +32,7 @@
   btnClose.addEventListener('click', function ()  {
     modalRules.classList.toggle('show-modal');
   });
+
   //**Reload Rules */
   let reloadRules = document.getElementById('reload-btn');
    reloadRules.addEventListener('click', function() {
@@ -39,10 +41,6 @@
     reloadRules.style.display = 'flex';
     
    });
-   
-  //**Variables */
-  
-  
 
   /** Gets a random choice for computer */
   function getComputerChoice() { 

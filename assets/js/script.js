@@ -205,7 +205,7 @@
       let computerScore = parseInt(document.getElementById('c-score').innerText);
       if (playerScore > computerScore) {
         result.style.fontSize = '2rem';
-        result.innerText = 'You Won The Game';
+        result.innerText = 'You Won The Game!';
         result.style.color = 'black';
       } else if (playerScore < computerScore) {
         result.style.fontSize = '2rem';

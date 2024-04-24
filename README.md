@@ -100,14 +100,14 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>I tested the game page using the https://wave.webaim.org which found no errors.</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 15 19 23" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/ddc01602-8aa5-4309-aea9-c665b9f56940">
 
-  <li>I tested the javascript codes with https://jshint.com which add no errors but 37 warnings</li>
+  <li>I tested the javascript codes with https://jshint.com which had no errors but 37 warnings</li>
   <img width="1710" alt="Screenshot 2024-04-23 at 23 12 58" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/33befd75-2ebf-4bac-90c0-6d9d829f05b6">
   
   <li>The javascript was tested again with https://jshint.com after all warnings have been fixed and there was nothing to fix. Image attached below.</li>
   <img width="1710" alt="Screenshot 2024-04-23 at 23 32 20" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b6940073-8026-423a-a306-dc095e1b4e3e">
 
   ## <li>Accessibility</li>
-  <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And i also made sure all buttons were asseccible by screen readers by adding an aria-label.</li>
+  <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And I also made sure all buttons were asseccible by screen readers by adding an aria-label attribute to each button</li>
   <img width="1710" alt="Screenshot 2024-04-22 at 12 35 30" src="https://github.com/Oluwapelumi99/Yoga-Club/assets/156908824/765e41e3-a461-40d5-872c-2d48dab7419a">
 
   ## Manual Testing 

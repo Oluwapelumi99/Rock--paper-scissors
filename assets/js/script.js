@@ -20,7 +20,6 @@
     }
   } 
   //**Modal Rules */
-
   let btnRules = document.querySelector('.rules-btn');
   let btnClose = document.querySelector('.close-btn');
   let modalRules = document.querySelector('.modal');
@@ -35,13 +34,11 @@
 
   //**Reload Rules */
   let reloadRules = document.getElementById('reload-btn');
-   reloadRules.addEventListener('click', function() {
+    reloadRules.addEventListener('click', function() {
     window.location.reload();
     reloadRules.innerText= 'Restart';
-    reloadRules.style.display = 'flex';
-    
+    reloadRules.style.display = 'flex';   
    });
-
   /** Gets a random choice for computer */
   function getComputerChoice() { 
    let computerOptions = ["rock", "paper", "scissors", "lizard", "spock"];
@@ -49,8 +46,6 @@
    let computerChoice = computerOptions[choiceNumber];
    return computerChoice;
    }
-
-  
    /** Converts computer Choice words into their icons*/
    function convert(computerChoice) {
     if(computerChoice === 'rock') return '<i class="fa-solid fa-hand-rock"></i>';
@@ -126,8 +121,8 @@
       }
 }
 
-  function runGame(playerChoice) {
-    removeGameTileListeners();
+ function runGame(playerChoice) {
+   removeGameTileListeners();
    let computerChoice = getComputerChoice();
    game(playerChoice, computerChoice);
    decideWinner(playerChoice, computerChoice);
@@ -137,7 +132,7 @@
    * Displays results based on player and computer choice
    */
   function win() {
-    setTimeout(function() {
+      setTimeout(function() {
       document.getElementById('result').innerHTML = "You win!";
       incrementPlayerScore();
       decreaseMovesLeft();
@@ -145,7 +140,7 @@
     }, 500);
   }
   function lose() {
-    setTimeout(function() {
+      setTimeout(function() {
       document.getElementById('result').innerHTML = "You lose..";
       incrementComputerScore(); 
       decreaseMovesLeft();
@@ -160,19 +155,19 @@
   }
 
   /**Gets the current player score and increases it by 1 after each win */
-   function incrementPlayerScore() {
+  function incrementPlayerScore() {
     let playerScore = (document.getElementById('y-score').innerText);
     document.getElementById('y-score').innerText = ++playerScore;
    }
 
    /**Gets the current player score and increases it by 1 after each win */
-   function incrementComputerScore() {
+  function incrementComputerScore() {
     let computerScore = (document.getElementById('c-score').innerText);
     document.getElementById('c-score').innerText = ++computerScore;
    }
 
    /** Reduces Moves left to reach game over and decide winner */
-   function decreaseMovesLeft() {
+  function decreaseMovesLeft() {
     let movesLeftSpan = document.getElementById('moves-left');
     let movesLeft = parseInt(movesLeftSpan.innerText);
     let newMovesLeft = movesLeft - 1;
@@ -203,15 +198,15 @@
       let computerScore = parseInt(document.getElementById('c-score').innerText);
       if (playerScore > computerScore) {
         result.style.fontSize = '2rem';
-        result.innerText = 'You Won The Game!';
+        result.innerText = 'You Won The Game!. Play Again?';
         result.style.color = 'black';
       } else if (playerScore < computerScore) {
         result.style.fontSize = '2rem';
-        result.innerText = 'You Lost The Game';
+        result.innerText = 'You Lost The Game. Play Again?';
         result.style.color = 'black';
       } else {
         result.style.fontSize = '2rem';
-        result.innerText = 'It was a tie';
+        result.innerText = 'It was a tie. Play Again?';
         result.style.color = 'black';
       }
       reloadRules.innerText= 'Restart';

@@ -30,6 +30,7 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <li>Favicon</li>
    <li>Game page</li>
    <li>Rules Picture</li>
+   <li>Restart</li>
    <li>Modal for rules picture</li>
    <li>404 page</li>
    <li>No script</li>
@@ -79,6 +80,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ### Rules page
    <li>A rules image have been added to the game which shows after clicking on the rules button and closes after the close button on the rules image is clicked. The size of the image has been reduced so as not to interfere with the styling on screens with width smaller than the image. However, rules can still be seen with direction of the arrows.</li>
    <img width="704" alt="Screenshot 2024-04-24 at 23 08 07" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d40ffa7c-7489-4cf3-8dac-788724614300">
+
+   <li>I have added a restart function  that works to restart the game after the game is over.</li>
+    <img width="1710" alt="Screenshot 2024-04-24 at 23 57 41" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/9c45e1e0-340a-46a8-b4ac-ad40c43cddfb">
    
    ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
@@ -164,7 +168,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    <li>I have tested that the close button works when clicked and it takes the rules picture of the page as seen below.</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 22 59 39" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/3959066a-8177-473f-a2bc-b9e683a69b4b">
 
-    
+   <li>I have tested that the restart button works after the game is over to start a new game.</li>
+    <img width="1710" alt="Screenshot 2024-04-24 at 23 57 41" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/9c45e1e0-340a-46a8-b4ac-ad40c43cddfb">
+
 
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>

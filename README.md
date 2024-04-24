@@ -64,25 +64,19 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   <li>A background image has been added to the game area which matches the color scheme of the game area background</li>  
  <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
-
-
    ## Features
 
    <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The faicon gives a describtion of what game the page is about.</li>
    <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
    
- ### Modal PAGE
+  ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
  <img width="1710" alt="Screenshot 2024-04-21 at 11 28 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cb8d9d14-5583-4ac4-aced-a8ab1b536dff">
-
 
    ## No script page
 
   <li>A no script page which will look like the image below has been added for users that have disabled javascript on their devices</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 11 39 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cf6af071-3799-49b3-b436-26a3f8fb8637">
-   
-  
-
 
   ## Testing 
   <li>I tested the HTML page with W3C selector which found some errors.</li>
@@ -90,7 +84,6 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
 
   <li>These errors have been fixed by making the button element the child element of the div elements and changing the section into a div element. Picture is added below</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 23 09 10" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/70b223f4-1923-41e2-a4ed-92a11186d6b9">
-
 
   <li>CSS was tested with W3C Validator and it did not find any errors</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 23 21 00" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/c483598e-f989-4fa4-9493-368bd87e0548">
@@ -103,8 +96,6 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
   
   <li>The javascript was tested again with https://jshint.com after all warnings have been fixed and there was nothing to fix. Image attached below.</li>
   <img width="1710" alt="Screenshot 2024-04-23 at 23 32 20" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b6940073-8026-423a-a306-dc095e1b4e3e">
-
-
 
   ## <li>Accessibility</li>
   <li>I confrimed that the colors and font chosen are easy to read and accessible by running it through lighthose in dev tools. And i also made sure all buttons were asseccible by screen readers by adding an aria-label.</li>
@@ -139,35 +130,28 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ### Spock
    <img width="1705" alt="Screenshot 2024-04-24 at 00 14 27" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/23517ebc-d14d-4f59-b51d-675c1b3520f4">
 
-
    <li>I have tested that the Moves left number starts at 10 and decreases by 1 after each move, as seen after the first move below.</li>
    <img width="1706" alt="Screenshot 2024-04-24 at 00 16 54" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/fdef3665-1624-4350-93d2-5d7a73c8a06d">
-
 
    <li>I have tested that the game end after all the moves have been exhausted</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 00 35 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d5c13b76-278a-4f14-a5ea-8b0287be2af0">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   ## Unfixed bugs
  <li>There are no unfixed bugs</li>
 
+  ## Validator testing
+   <li>HTML </li>
+  The HTML codes were tested again after fixing the bug and no errors were found after passing through the official W3C validator".
+
+  <li>CSS</li>
+  There were no bugs to fix when tested through the W3C validator.
+
+  <li>Javascript</li>
+  The Javascript was tested again through the https://jshint.com after the warnings were fixed and there were any more warnings.
+
   ## Cloning and Forking
-  <li>In other to clone this page, you will log in to https://github.com, then click on <strong>code</strong> and then click on the <strong>HTTPS</strong> link and then paste it into which ever application you will be using to code.</li>
-  <li>To fork this project, you will need to log in to https://github.com, then scroll to the top and click on the <strong> fork</strong> in the top right corner of the code page.</li>
+  <li>In other to clone this repository, you will log in to https://github.com, then click on <strong>code</strong> and then click on the <strong>HTTPS</strong> link and then paste it into which ever application you will be using to code.</li>
+  <li>To fork this repository, you will need to log in to https://github.com, then scroll to the top and click on the <strong> fork</strong> in the top right corner of the code page.</li>
 
  ## Technologies used
  <li>https://jshint.com</li>
@@ -198,9 +182,6 @@ Click <strong>View deployment</strong> to see the live site. The live link is ht
 You can clone this by copying the URL and opening it on an app called <strong>Codeanywhere</strong>
 
 You select open an account through github. Once the app has opened, you past the url in the field provided after you click on <strong>create new workspace.</strong>
-
-
-
 
 ## Credits
  ### Media

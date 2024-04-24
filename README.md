@@ -151,7 +151,9 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
     <li> I have tested the rules button works when clicked and opened the rules picture as seeen below</li>
     <img width="1706" alt="Screenshot 2024-04-24 at 22 38 22" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/1216da2e-cc94-4371-850f-f3088891e000">
 
-    <li></li>
+    <li>I have tested that the close button works when clicked and it takes the rules picture of the page as seen below.</li>
+    <img width="1710" alt="Screenshot 2024-04-24 at 22 59 39" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/3959066a-8177-473f-a2bc-b9e683a69b4b">
+
 
 
   ## Unfixed bugs

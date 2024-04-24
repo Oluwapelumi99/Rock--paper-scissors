@@ -65,16 +65,21 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
  <img width="1710" alt="Screenshot 2024-04-23 at 20 16 26" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d1336328-bc96-4a26-bde7-84980496ff1a">
 
    ## Features
-
+   
+   ### Favicon
    <li>A favicon has been set to display in the icon bar when the website is viewed on the browser. The faicon gives a describtion of what game the page is about.</li>
    <img width="718" alt="Screenshot 2024-04-21 at 21 18 55" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/b888d2e1-204c-4aea-9914-3b19920e66ca">
    
-  ### Modal PAGE
+   ### Modal PAGE
    <li>A modal function has been added to the javascript to listen to the rules button click on the game page and display the rules picture, the page is added below.</li>
  <img width="1710" alt="Screenshot 2024-04-21 at 11 28 40" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cb8d9d14-5583-4ac4-aced-a8ab1b536dff">
 
-   ## No script page
+   ### 404 Page 
+  <li>A 404 page has been added to the page incase a user inputs the wrong address and the page contains a link to take them back to the game.</li>
+  <img width="1710" alt="Screenshot 2024-04-24 at 11 00 13" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/2f4627e5-0272-4001-8afc-6930ac6f427b">
 
+
+   ## No script page
   <li>A no script page which will look like the image below has been added for users that have disabled javascript on their devices</li>
   <img width="1710" alt="Screenshot 2024-04-21 at 11 39 47" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/cf6af071-3799-49b3-b436-26a3f8fb8637">
 

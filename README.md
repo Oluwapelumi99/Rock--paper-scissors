@@ -82,7 +82,8 @@ Each player picks a variable between ROCK, PAPER, SCISSORS, LIZARD, SPOCK and re
    ### Rules page
    <li>A rules image has been added to the game which shows after clicking on the rules button and closes after the close button on the rules image is clicked. The size of the image has been reduced so as not to interfere with the styling on screens with width smaller than the image. However, rules can still be seen with direction of the arrows.</li>
    <img width="704" alt="Screenshot 2024-04-24 at 23 08 07" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/d40ffa7c-7489-4cf3-8dac-788724614300">
-
+    
+   ### Restart
    <li>I have added a restart function  that works to restart the game after the game is over.</li>
     <img width="1710" alt="Screenshot 2024-04-24 at 23 57 41" src="https://github.com/Oluwapelumi99/Rock--paper-scissors/assets/156908824/9c45e1e0-340a-46a8-b4ac-ad40c43cddfb">
    
